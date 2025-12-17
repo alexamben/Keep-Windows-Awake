@@ -12,10 +12,15 @@ Avoiding sleep without changing power settings
 
 
 🕒 User-defined awake duration (in minutes)
+
 ⌨️ Simulates harmless keyboard input (Scroll Lock)
+
 ✅ Input validation (numeric & positive values only)
+
 ⚠️ Graceful error handling
+
 💬 Clear user feedback via message boxes
+
 🪶 No external dependencies
 
 
