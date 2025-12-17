@@ -1,4 +1,4 @@
-🖥️ Keep Windows Awake – VBScript Utility
+🖥️ Keep Windows Awake 🖥️
 
 A lightweight VBScript that prevents your Windows system from going to sleep for a user-defined duration by simulating periodic keyboard activity (Scroll Lock toggle).
 This script is useful when:
@@ -8,7 +8,7 @@ Keeping remote sessions alive
 Avoiding sleep without changing power settings
 
 
-✨ Features
+✨ Features 
 
 
 🕒 User-defined awake duration (in minutes)
