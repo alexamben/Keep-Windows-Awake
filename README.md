@@ -1,6 +1,6 @@
 🖥️ Keep Windows Awake / Maintain Online Status 🖥️
 
-A lightweight VBScript designed to prevent your Windows device from going idle by periodically simulating harmless keyboard activity (Scroll Lock toggle). This is particularly useful for employees who need their system or presence status to remain active—for example in Microsoft Teams, remote desktops, or similar collaboration tools—without changing power or availability settings.
+A lightweight VBScript designed to prevent your Windows device from going idle by periodically simulating harmless keyboard activity (Scroll Lock toggle). This is particularly useful for employees who need their system or presence status to remain active (for example, in Microsoft Teams, remote desktops, or similar collaboration tools) without changing power or availability settings.
 
 ✨ Features ✨
 
