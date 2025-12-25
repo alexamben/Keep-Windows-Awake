@@ -1,74 +1,59 @@
-🖥️ Keep Windows Awake 🖥️
+🖥️ Keep Windows Awake / Maintain Online Status 🖥️
 
-A lightweight VBScript that prevents your Windows system from going to sleep for a user-defined duration by simulating periodic keyboard activity (Scroll Lock toggle).
-This script is useful when:
-Running long tasks (downloads, scans, builds)
-Preventing sleep during presentations
-Keeping remote sessions alive
-Avoiding sleep without changing power settings
+A lightweight VBScript designed to prevent your Windows device from going idle by periodically simulating harmless keyboard activity (Scroll Lock toggle). This is particularly useful for employees who need their system or presence status to remain active—for example in Microsoft Teams, remote desktops, or similar collaboration tools—without changing power or availability settings.
 
+✨ Features ✨
 
-✨ Features 
+🕒 Set your own active duration (in minutes)
 
+⌨️ Uses a safe Scroll Lock toggle to simulate activity
 
-🕒 User-defined awake duration (in minutes)
+✅ Validates input to avoid errors
 
-⌨️ Simulates harmless keyboard input (Scroll Lock)
+⚠️ Handles unexpected situations gracefully
 
-✅ Input validation (numeric & positive values only)
+💬 Provides clear notifications and status messages
 
-⚠️ Graceful error handling
+🪶 Completely standalone—no extra tools needed
 
-💬 Clear user feedback via message boxes
+📜 How It Works 📜
 
-🪶 No external dependencies
+You choose how many minutes to stay active
 
+Every minute, the script waits 60 seconds and briefly toggles Scroll Lock to register user activity
 
-📜 How It Works
+Once the duration ends, the script stops automatically
 
+🚀 Usage 🚀
 
-Prompts the user to enter the number of minutes to keep the system awake.
-Every minute:
-Waits 60 seconds
-Toggles the Scroll Lock key to simulate activity
-After the specified time:
+Save the file as keep-awake.vbs
 
-
-🚀 Usage
-
-
-Save the script as keep-awake.vbs
 Double-click to run
-Enter the desired duration in minutes
-Leave it running in the background
 
+Enter the number of minutes you want to remain “active”
 
-⚠️ Notes & Limitations
+Let it run in the background
 
+⚠️ Notes & Limitations ⚠️
 
-Works only on Windows
-Requires keyboard input access
-Scroll Lock LED may blink during execution
-Does not modify system power settings
+Works on Windows only
 
+Requires basic keyboard access
 
-🔐 Security Considerations
+Scroll Lock LED may briefly blink during operation
 
+Does not change system power policies or Teams configuration
 
-No network access
+🔐 Security 🔐
+
+No internet communication
+
 No persistence
-No registry or system changes
-Easily auditable single-file script
 
+No registry or system modifications
 
-📄 License
+Single, easily reviewable script
 
+📄 License 📄
 
-MIT License – free to use, modify, and distribute.
-
-
-🤝 Contributions
-
-Pull requests and improvements are welcome!
-Feel free to fork and enhance the script (e.g., tray icon, logging, or configurable intervals).
-
+MIT — free to use, adapt, and share.
